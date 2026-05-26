@@ -91,5 +91,5 @@ sudo python3 Web_Weak_Analysis.py
   <img src="/img/Demo_hasil_scanning.png" alt="Contoh output Web_Weak_Analysis" width="800"/><br>
   <em>Demo Hasil scanning web 
 </p>
-##&copy SatyaGanz
+&copy SatyaGanz
 
