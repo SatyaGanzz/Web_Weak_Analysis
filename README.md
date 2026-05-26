@@ -19,40 +19,39 @@
 
 
 ## 🔎 Ringkasan
-Web_Weak_Analysis adalah toolkit Python untuk pengujian keamanan web: reconnaissance, directory enumeration, subdomain check, pemeriksaan header keamanan, CORS, open-redirect, SQLi/XSS/LFI probes, port scan, SSL info, cookie flags, rate-limit dan CSRF checks. Hasil dapat diekspor ke Markdown / JSON / HTML.
+Web_Weak_Analysis is a Python-based web security testing toolkit for reconnaissance, directory enumeration, subdomain checks, security header analysis, CORS testing, open redirect detection, SQLi/XSS/LFI probes, port scanning, SSL inspection, cookie flag analysis, rate-limit testing, and CSRF checks. Results can be exported to Markdown / JSON / HTML.
 
 ---
 
 ## ✨ Fitur Utama
-- Recon: IP, DNS, HTTP headers, teknologi, js libs.
-- Subdomain enumeration (wordlist kecil).
-- Direktori & file sensitif checking.
-- Pemeriksaan Security Headers & WAF detection.
+- Recon: IP, DNS, HTTP headers, technologies, JS libraries.
+- Subdomain enumeration (small wordlist).
+- Sensitive directories & files checking.
+- Security Headers & WAF detection.
 - CORS & Open Redirect checks.
-- SQL Injection (error/boolean/time), Reflected XSS, LFI checks.
-- Port scanning (threaded) & SSL certificate info.
-- Cookie flags & simple rate-limit check.
+- SQL Injection (error/boolean/time), Reflected XSS, and LFI checks.
+- Threaded port scanning & SSL certificate information.
+- Cookie flags & simple rate-limit checks.
 - CSRF detection for POST forms.
-- Generate laporan Markdown / JSON / (HTML jika jinja2 tersedia).
-
+- Generate reports in Markdown / JSON / (HTML if jinja2 is installed).
 ---
 
 
 
-## 📥 Cara Clone
+## 📥 How to Clone
 ```bash
 git clone https://github.com/SatyaGanzz/Web_Weak_Analysis.git
 cd Web_Weak_Analysis
 ```
 
-## instalasi kali linux
+## Instalation on Linux
 ```bash
 sudo apt update && sudo apt upgrade -y
 sudo apt install -y python3 python3-pip git
 pip3 install -r requirements.txt
 ```
 
-### Rekomendadi menggukan Virtualenv
+### Recomended using Virtualenv
 ```bash
 sudo apt update && sudo apt install -y python3-venv git
 python3 -m venv .venv
@@ -61,7 +60,7 @@ pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-### Install Termux
+### Install on Termux
 ```bash
 pkg update && pkg upgrade -y
 pkg install -y python git
@@ -70,26 +69,26 @@ cd Web_Weak_Analysis
 pip install --upgrade pip
 pip install -r requirements.txt
 ```
-### Cara Menjalankan
+### How to run
 ```bash
 sudo python3 web_weak_analysis.py
 ```
 
-## 🖼 Demo / Contoh Output
+## 🖼 Demo / Example Output
 
 <p align="center">
   <img src="/img/Demo1.png" alt="Contoh output Web_Weak_Analysis" width="800"/><br>
-  <em>Demo Script Dijalankan: <code><br>Masukan Url target<pentest_output/</code>.</em>
+  <em>Demo Script Running: <code><br>Masukan Url target<pentest_output/</code>.</em>
 </p>
 
 <p align="center">
   <img src="/img/Demo_Proses_scaning.png" alt="Contoh output Web_Weak_Analysis" width="800"/><br>
-  <em>Demo Proses scanning web
+  <em>Demo Proces scanning web
 </p>
 
 <p align="center">
   <img src="/img/Demo_hasil_scanning2.png" alt="Contoh output Web_Weak_Analysis" width="800"/><br>
-  <em>Demo Hasil scanning web 
+  <em>Demo Result scanning web 
 </p>
 &copy SatyaGanz
 
