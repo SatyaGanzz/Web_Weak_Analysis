@@ -12,18 +12,18 @@
 
 ---
 <p align="center">
-  <img src="/img/Banner.png" alt="Contoh output Web_Weak_Analysis" width="800"/>
+  <img src="/img/Banner.png" alt="Example output Web_Weak_Analysis" width="800"/>
 </p>
 
 
 
 
-## 🔎 Ringkasan
+## 🔎 Summary
 Web_Weak_Analysis is a Python-based web security testing toolkit for reconnaissance, directory enumeration, subdomain checks, security header analysis, CORS testing, open redirect detection, SQLi/XSS/LFI probes, port scanning, SSL inspection, cookie flag analysis, rate-limit testing, and CSRF checks. Results can be exported to Markdown / JSON / HTML.
 
 ---
 
-## ✨ Fitur Utama
+## ✨ First Feature
 - Recon: IP, DNS, HTTP headers, technologies, JS libraries.
 - Subdomain enumeration (small wordlist).
 - Sensitive directories & files checking.
@@ -78,7 +78,7 @@ sudo python3 web_weak_analysis.py
 
 <p align="center">
   <img src="/img/Demo1.png" alt="Contoh output Web_Weak_Analysis" width="800"/><br>
-  <em>Demo Script Running: <code><br>Masukan Url target<pentest_output/</code>.</em>
+  <em>Demo Script Running: <code><br>Input Url target<pentest_output/</code>.</em>
 </p>
 
 <p align="center">
