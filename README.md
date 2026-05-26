@@ -72,7 +72,7 @@ pip install -r requirements.txt
 ```
 ### Cara Menjalankan
 ```bash
-sudo python3 Web_Weak_Analysis.py
+sudo python3 web_weak_analysis.py
 ```
 
 ## 🖼 Demo / Contoh Output
