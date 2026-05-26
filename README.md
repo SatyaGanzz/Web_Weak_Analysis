@@ -83,7 +83,7 @@ sudo python3 web_weak_analysis.py
 </p>
 
 <p align="center">
-  <img src="/img/Demo_Proses_scanning.png" alt="Contoh output Web_Weak_Analysis" width="800"/><br>
+  <img src="/img/Demo_Proses_scaning.png" alt="Contoh output Web_Weak_Analysis" width="800"/><br>
   <em>Demo Proses scanning web
 </p>
 
